@@ -210,5 +210,26 @@
 
 
 
+/* Latest  Deals Section --3rd */
+.Latest-Deals{
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.Latest-Deals>h1{
+  font-size: 3.125rem;
+  font-weight: 800;
+}
+
+.Latest-color{
+  color: #E95A08;
+}
+
+.Latest-Deals>p{
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+
 
 
