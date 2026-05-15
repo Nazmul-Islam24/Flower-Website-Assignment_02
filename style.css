@@ -105,6 +105,7 @@
 /* Our Plants & Card Section --1st */
 .Our-Plants-card{
   text-align: center;
+  margin-bottom: 210px;
 }
 
 .our-plants{
@@ -157,3 +158,57 @@
   text-decoration: none;
   color: #FFFFFF;
 }
+
+
+
+/* Flower Plants & Lover Section --2nd */
+.Flower-Plants-Lover{
+  height: 597px;
+  margin-bottom: 120px;
+}
+
+.Flower-Plants{
+  display: flex;
+  align-items: center;
+}
+
+.flower-badge{
+  display: flex;  
+}
+
+.flower-badge > img{
+  height: 597px;
+}
+
+.badge > img{
+  width: 286px;
+  height: 286px;
+  margin-left: -195px;
+  margin-top: -122px;
+}
+
+.Flower-h1{
+  font-size: 3.125rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.Lover-Script{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 540px;
+  height: 521px;
+  margin-left: -35px;
+}
+
+.script-3 > li{
+  margin-top: 20px;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+
+
+
+
