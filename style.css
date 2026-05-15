@@ -320,5 +320,36 @@
 
 
 
+/* Footer Section */
+/* Join the Colorful Search Section --1ST */
+.Join-search{
+  background-image: url(images/news-letter-bg.png);
+  max-width: 1440px;
+  height: 533px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
 
+.Join-search>h1{
+  color: #FFFFFF;
+  font-size: 3.125rem;
+  font-weight: 800;
+  margin-bottom: 8PX;
+}
 
+.search-btn > input{
+  border: none;
+  padding: 15px 540px 15px 20px;
+}
+
+.search-btn > .btn{
+  color: #FFFFFF;
+  background-color: #E95A08;
+  font-weight: 600;
+  border: none;
+  padding: 15px 50px;
+}
