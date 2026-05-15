@@ -1,0 +1,93 @@
+/* Noto Serif Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* Inter Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Web Size */
+.web-size{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.font-gray{
+  color: #8987A1;
+}
+
+
+
+/* Header Section */
+/* Navbar --1st*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item{
+  list-style: none;
+  margin-left: 48px;
+}
+
+.cart{
+  margin-left: 10px;
+}
+
+.home{
+  color: #252432;
+  font-weight: 800;
+}
+
+/* FRESH FLOWERS Section --2nd */
+.fresh-flower{
+  display: flex;
+  align-items: end;
+  height: 461px;
+  background-color: rgb(247, 247, 232);
+  padding-left: 5px;
+}
+
+.fresh-h1{
+  font-size: 4.0625rem;
+  margin-bottom: 15px;
+}
+
+.fresh-flower-color{
+  color: #E95A08;
+}
+
+.script-1{
+  height: 300px;
+}
+
+.hero-flower img{
+  width: 570px;
+  height: 355px;
+}
