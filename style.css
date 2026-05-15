@@ -232,4 +232,93 @@
 
 
 
+/* Discount Section --4th */
+
+/* I spent almost the whole day working on just this part. I customized the image cards within the first 5–7 minutes, but later I got stuck with the texts and the light blur color effect. I couldn’t place them properly no matter what I tried. I watched tutorials and checked my own notes, but still couldn’t solve it. After trying really hard, I took some hints from Gemini and tried again, but that also didn’t work. In the end, I showed my code to Gemini, got some 90% help, and finally managed to build the whole thing properly. */
+
+.Discount-Off {
+  margin-bottom: 120px;
+}
+
+.off {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 22px; 
+}
+
+.discount-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.discount-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+#img-25 {
+  grid-row: span 2;
+}
+
+#img-25 > img {
+  height: 422px;
+  border-radius: 22px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+.overlay h2, .overlay h4 {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+.overlay h2 {
+  font-size: 2.5rem;
+}
+
+.overlay h4 {
+  font-size: 1.25rem;
+}
+
+.overlay button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.overlay > .font-25{
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.overlay button:hover {
+  color: #e0e0e0;
+}
+
+
+
+
+
 
