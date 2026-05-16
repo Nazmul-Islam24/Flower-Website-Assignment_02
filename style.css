@@ -396,3 +396,260 @@
   width: 36px;
   height: 36px;
 }
+
+
+
+
+
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+  .web-size {
+    max-width: 100%;
+    padding: 0 5px;
+  }
+
+  main > section {
+    margin-bottom: 50px;
+  }
+
+  .fresh-h1 {
+    font-size: 1.5rem;
+  }
+
+  .our-plants, 
+  .Latest-Deals > h1, 
+  .Join-search > h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .Flower-h1{
+    font-size: 1.8rem;
+    margin-top: 20px; 
+  }
+
+  .script-2, 
+  .Latest-Deals > p, 
+  .last-scrip {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  /* navbar section */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding: 0 16px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+ }
+
+  .nav-links .nav-item:not(:last-child) {
+    display: none;
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  /* fresh flowers section */
+  .fresh-flower {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+    background-color: rgba(247, 247, 232, 0.774);
+    margin-bottom: 50px;
+  }
+
+  .script-1 {
+    height: auto;
+    padding: 20px 10px 5px 5px;
+ }
+
+  .hero-flower img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+    /* our plants section */
+  .Our-Plants-card {
+    margin-bottom: 50px;
+  }
+
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .card-item {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .card-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-in-script {
+    font-size: 1rem;
+    padding: 5px;
+  }
+    
+  .card-in-script h5 {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+
+  .card-in-script h4 {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+  .btn {
+    padding: 10px 0;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+    /* flower plants & lover section */
+  .Flower-Plants-Lover {
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .Flower-Plants {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .flower-badge {
+    width: 100%;
+    position: relative;
+  }
+
+    .flower-badge > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .badge > img {
+    display: none;
+  }
+
+  .Lover-Script {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 0 16px;
+  }
+
+  .script-3 {
+      padding-left: 20px;
+  }
+
+  .script-3 > li {
+      font-size: 0.95rem;
+      margin-top: 15px;
+  }
+
+    /* discount section */
+  .Latest-Deals {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .off {
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 15px;
+  }
+
+
+  #img-25 {
+    grid-row: auto; 
+  }
+
+  .discount-card img, 
+  #img-25 > img {
+    height: 140px;
+    border-radius: 10px;
+  }
+
+  .overlay h2, 
+  .overlay h4 {
+    font-size: 1.1rem;
+  }
+
+  .overlay .font-25 {
+    font-size: 1.1rem;
+  }
+
+  .Discount-Off {
+    margin-bottom: 80px;
+  }
+
+  /* join search section */
+  .Join-search {
+    height: auto;
+    padding: 40px 16px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .search-btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .search-btn > input {
+    padding: 12px;
+    width: 70%;
+    border: none;
+    outline: none;
+  }
+
+  .search-btn > .btn {
+    width: 30%;
+    padding: 12px 5px;
+    border-radius: 0;
+  }
+
+    /* footer section */
+  .logo-Social-icon {
+    width: 100%;
+    padding: 0 16px;
+    margin: 20px auto;
+  }
+
+  .logo-icon {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+  }
+
+  .all-about {
+    gap: 15px;
+  }
+
+  .icon {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+}
